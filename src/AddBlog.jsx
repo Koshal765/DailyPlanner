@@ -37,7 +37,7 @@ const AddBlog = () => {
    
        <div className='flex justify-center'>
         <div className='bg-gray-200 rounded-2xl mt-15 w-100 '>
-          <h1 className='text-4xl font-bold ml-30 mt-5 text-purple-600 rounded-full'>Add Task</h1>
+          <h1 className='text-4xl font-bold ml-30 mt-5 text-black rounded-full'>Add Task</h1>
           <form className='mt-5 ml-10' onSubmit={handleSubmit}>
             
           <input required placeholder='Title' className='ml-6 h-10 w-75 mt-2 bg-gray-300 rounded-full'
