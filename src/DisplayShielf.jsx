@@ -33,7 +33,7 @@ const DisplayShielf = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">All Blogs</h1>
+      <h1 className="text-2xl font-bold mb-4 text-shadow-zinc-100">All Blogs</h1>
       <ul className="space-y-4">
         {blogs.map((blog) => (
           <li
